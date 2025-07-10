@@ -1,6 +1,8 @@
-# APNIC IP List
+# Latest APNIC Country IP List
 
 This project automatically downloads and parses APNIC (Asia Pacific Network Information Centre) IP address allocation data.
+
+> All IP Lists are automatically updated at 2:00 am every day.
 
 ## Features
 
