@@ -1,0 +1,48 @@
+name: APNIC IP List Update
+
+on:
+  schedule:
+    # Run daily at 2:00 AM
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+# Configure permissions for the workflow
+permissions:
+  contents: write  # Allow pushing commits
+  pull-requests: read  # Allow reading pull requests (optional)
+
+jobs:
+  update-ip-list:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # Use default token
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Download and parse APNIC data
+      run: |
+        python scripts/parse_apnic_data.py
+        
+    - name: Generate CIDR lists
+      run: |
+        python scripts/generate_cidr_lists.py
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update APNIC IP list - $(date +'%Y-%m-%d')"
+        git push 
