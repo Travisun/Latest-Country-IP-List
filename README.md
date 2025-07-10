@@ -72,6 +72,9 @@ python scripts/parse_apnic_data.py
 
 # Generate CIDR lists
 python scripts/generate_cidr_lists.py
+
+# Run tests
+python scripts/test_parser.py
 ```
 
 ## License

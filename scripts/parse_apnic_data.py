@@ -9,7 +9,7 @@ import ipaddress
 import json
 import os
 from datetime import datetime
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 class APNICParser:
     def __init__(self):
@@ -23,7 +23,7 @@ class APNICParser:
         response.raise_for_status()
         return response.text
         
-    def parse_line(self, line: str) -> Dict[str, Any]:
+    def parse_line(self, line: str) -> Optional[Dict[str, Any]]:
         """Parse a single line of data"""
         if line.startswith('#') or not line.strip():
             return None
@@ -37,36 +37,83 @@ class APNICParser:
         if type_ not in ['ipv4', 'ipv6', 'asn']:
             return None
             
+        # Validate count
+        try:
+            count_int = int(count) if count.isdigit() else 0
+            if count_int <= 0:
+                return None
+        except ValueError:
+            return None
+            
         return {
             'registry': registry,
             'country': country,
             'type': type_,
             'start': start,
-            'count': int(count) if count.isdigit() else 0,
+            'count': count_int,
             'date': date,
             'status': status
         }
         
     def calculate_ip_range(self, start_ip: str, count: int, ip_type: str) -> Dict[str, str]:
-        """Calculate IP address range"""
+        """Calculate IP address range and CIDR notation"""
         try:
             if ip_type == 'ipv4':
                 start = ipaddress.IPv4Address(start_ip)
                 end = ipaddress.IPv4Address(int(start) + count - 1)
+                
+                # Calculate CIDR for IPv4
+                network = ipaddress.summarize_address_range(start, end)
+                cidr_list = list(network)
+                if cidr_list:
+                    cidr = str(cidr_list[0])
+                else:
+                    cidr = f"{start_ip}/{32}"
+                    
             elif ip_type == 'ipv6':
                 start = ipaddress.IPv6Address(start_ip)
                 end = ipaddress.IPv6Address(int(start) + count - 1)
+                
+                # Calculate CIDR for IPv6
+                network = ipaddress.summarize_address_range(start, end)
+                cidr_list = list(network)
+                if cidr_list:
+                    cidr = str(cidr_list[0])
+                else:
+                    cidr = f"{start_ip}/{128}"
             else:
-                return {'start': start_ip, 'end': start_ip}
+                return {'start': start_ip, 'end': start_ip, 'cidr': start_ip}
                 
             return {
                 'start': str(start),
                 'end': str(end),
-                'cidr': f"{start}/{start.max_prefixlen - (count - 1).bit_length()}"
+                'cidr': cidr
             }
         except Exception as e:
-            print(f"Error calculating IP range for {start_ip}: {e}")
+            print(f"Error calculating IP range for {start_ip} (count: {count}, type: {ip_type}): {e}")
             return {'start': start_ip, 'end': start_ip, 'cidr': start_ip}
+            
+    def validate_ip_data(self, entry: Dict[str, Any]) -> bool:
+        """Validate IP data entry"""
+        try:
+            if entry['type'] in ['ipv4', 'ipv6']:
+                # Validate start IP
+                if entry['type'] == 'ipv4':
+                    ipaddress.IPv4Address(entry['start'])
+                else:
+                    ipaddress.IPv6Address(entry['start'])
+                    
+                # Validate count
+                if entry['count'] <= 0:
+                    return False
+                    
+                # Validate CIDR if present
+                if 'cidr' in entry:
+                    ipaddress.ip_network(entry['cidr'], strict=False)
+                    
+            return True
+        except Exception:
+            return False
             
     def parse_data(self, data: str) -> Dict[str, List[Dict[str, Any]]]:
         """Parse the entire data file"""
@@ -83,7 +130,15 @@ class APNICParser:
         }
         
         lines = data.split('\n')
+        total_lines = len(lines)
+        processed_lines = 0
+        skipped_lines = 0
+        
         for line in lines:
+            processed_lines += 1
+            if processed_lines % 10000 == 0:
+                print(f"Processed {processed_lines}/{total_lines} lines...")
+                
             parsed = self.parse_line(line)
             if parsed:
                 if parsed['type'] in ['ipv4', 'ipv6']:
@@ -94,8 +149,16 @@ class APNICParser:
                     )
                     parsed.update(ip_range)
                     
+                    # Validate the entry
+                    if not self.validate_ip_data(parsed):
+                        skipped_lines += 1
+                        continue
+                        
                 results[parsed['type']].append(parsed)
+            else:
+                skipped_lines += 1
                 
+        print(f"Parsing completed. Processed: {processed_lines}, Skipped: {skipped_lines}")
         return results
         
     def save_data(self, data: Dict[str, Any]):
