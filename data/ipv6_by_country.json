@@ -177582,6 +177582,17 @@
       "registry": "apnic",
       "country": "AF",
       "type": "ipv6",
+      "start": "2402:1ca0::",
+      "count": 32,
+      "date": "20250726",
+      "status": "allocated",
+      "end": "2402:1ca0::1f",
+      "cidr": "2402:1ca0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "AF",
+      "type": "ipv6",
       "start": "2402:2880::",
       "count": 32,
       "date": "20150318",
