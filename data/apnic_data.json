@@ -655714,6 +655714,17 @@
     },
     {
       "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df6:640::",
+      "count": 48,
+      "date": "20250824",
+      "status": "assigned",
+      "end": "2001:df6:640::2f",
+      "cidr": "2001:df6:640::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
       "start": "2001:df6:700::",
@@ -881931,7 +881942,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-08-24T03:22:15.379975",
+    "last_updated": "2025-08-25T03:19:08.477378",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
