@@ -882343,10 +882343,19 @@
       "count": 1,
       "date": "20250829",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "154189",
+      "count": 1,
+      "date": "20250830",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-08-30T03:00:46.013758",
+    "last_updated": "2025-08-31T03:10:23.236672",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
