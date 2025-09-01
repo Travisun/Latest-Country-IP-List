@@ -351928,6 +351928,28 @@
       "registry": "apnic",
       "country": "KR",
       "type": "ipv4",
+      "start": "203.24.179.0",
+      "count": 256,
+      "date": "20250831",
+      "status": "assigned",
+      "end": "203.24.179.255",
+      "cidr": "203.24.179.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "KR",
+      "type": "ipv4",
+      "start": "203.24.188.0",
+      "count": 256,
+      "date": "20250831",
+      "status": "assigned",
+      "end": "203.24.188.255",
+      "cidr": "203.24.188.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "KR",
+      "type": "ipv4",
       "start": "203.77.176.0",
       "count": 256,
       "date": "20051207",
