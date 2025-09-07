@@ -43970,6 +43970,17 @@
       "registry": "apnic",
       "country": "HK",
       "type": "ipv6",
+      "start": "2001:df6:1840::",
+      "count": 48,
+      "date": "20250906",
+      "status": "assigned",
+      "end": "2001:df6:1840::2f",
+      "cidr": "2001:df6:1840::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv6",
       "start": "2001:df6:1980::",
       "count": 48,
       "date": "20210226",

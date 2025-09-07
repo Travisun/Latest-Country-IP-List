@@ -417890,6 +417890,17 @@
       "registry": "apnic",
       "country": "HK",
       "type": "ipv4",
+      "start": "203.28.57.0",
+      "count": 256,
+      "date": "20250906",
+      "status": "assigned",
+      "end": "203.28.57.255",
+      "cidr": "203.28.57.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv4",
       "start": "203.29.21.0",
       "count": 256,
       "date": "19960701",
