@@ -38435,17 +38435,6 @@
       "registry": "apnic",
       "country": "TW",
       "type": "ipv6",
-      "start": "2400:4ae0::",
-      "count": 32,
-      "date": "20220106",
-      "status": "allocated",
-      "end": "2400:4ae0::1f",
-      "cidr": "2400:4ae0::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "TW",
-      "type": "ipv6",
       "start": "2400:4d20::",
       "count": 32,
       "date": "20220114",
@@ -51865,17 +51854,6 @@
       "status": "assigned",
       "end": "2001:df0:bc00::2f",
       "cidr": "2001:df0:bc00::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "AU",
-      "type": "ipv6",
-      "start": "2001:df0:bc40::",
-      "count": 48,
-      "date": "20220516",
-      "status": "assigned",
-      "end": "2001:df0:bc40::2f",
-      "cidr": "2001:df0:bc40::/123"
     },
     {
       "registry": "apnic",
