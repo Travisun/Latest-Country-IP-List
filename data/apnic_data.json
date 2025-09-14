@@ -883236,10 +883236,28 @@
       "count": 1,
       "date": "20250912",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "asn",
+      "start": "154227",
+      "count": 1,
+      "date": "20250913",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "154228",
+      "count": 1,
+      "date": "20250913",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-13T02:51:52.313723",
+    "last_updated": "2025-09-14T03:05:53.875882",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
