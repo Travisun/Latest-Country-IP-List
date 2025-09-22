@@ -62221,6 +62221,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv6",
+      "start": "2402:2d20::",
+      "count": 32,
+      "date": "20250921",
+      "status": "allocated",
+      "end": "2402:2d20::1f",
+      "cidr": "2402:2d20::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv6",
       "start": "2402:2f00::",
       "count": 32,
       "date": "20111010",
