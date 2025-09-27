@@ -164536,6 +164536,17 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
+      "start": "2001:df6:26c0::",
+      "count": 48,
+      "date": "20250926",
+      "status": "assigned",
+      "end": "2001:df6:26c0::2f",
+      "cidr": "2001:df6:26c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
       "start": "2001:df6:2780::",
       "count": 48,
       "date": "20210304",
