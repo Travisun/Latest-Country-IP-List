@@ -1698,6 +1698,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv4",
+      "start": "43.248.252.0",
+      "count": 512,
+      "date": "20250926",
+      "status": "allocated",
+      "end": "43.248.253.255",
+      "cidr": "43.248.252.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
       "start": "43.249.116.0",
       "count": 1024,
       "date": "20141008",

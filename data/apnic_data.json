@@ -28514,6 +28514,17 @@
     },
     {
       "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
+      "start": "43.248.252.0",
+      "count": 512,
+      "date": "20250926",
+      "status": "allocated",
+      "end": "43.248.253.255",
+      "cidr": "43.248.252.0/23"
+    },
+    {
+      "registry": "apnic",
       "country": "HK",
       "type": "ipv4",
       "start": "43.249.0.0",
@@ -884216,10 +884227,19 @@
       "count": 1,
       "date": "20250926",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "KR",
+      "type": "asn",
+      "start": "154270",
+      "count": 1,
+      "date": "20250926",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-27T02:58:14.130027",
+    "last_updated": "2025-09-28T03:11:40.608306",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
