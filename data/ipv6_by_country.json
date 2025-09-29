@@ -23264,6 +23264,17 @@
       "registry": "apnic",
       "country": "CN",
       "type": "ipv6",
+      "start": "2402:2e60::",
+      "count": 32,
+      "date": "20250928",
+      "status": "allocated",
+      "end": "2402:2e60::1f",
+      "cidr": "2402:2e60::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv6",
       "start": "2402:2e80::",
       "count": 32,
       "date": "20150326",

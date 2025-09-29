@@ -708241,6 +708241,17 @@
       "registry": "apnic",
       "country": "CN",
       "type": "ipv6",
+      "start": "2402:2e60::",
+      "count": 32,
+      "date": "20250928",
+      "status": "allocated",
+      "end": "2402:2e60::1f",
+      "cidr": "2402:2e60::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv6",
       "start": "2402:2e80::",
       "count": 32,
       "date": "20150326",
@@ -884239,7 +884250,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-09-28T03:11:40.608306",
+    "last_updated": "2025-09-29T03:08:46.599786",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
