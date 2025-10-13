@@ -140071,6 +140071,17 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv6",
+      "start": "2402:31e0::",
+      "count": 32,
+      "date": "20251012",
+      "status": "allocated",
+      "end": "2402:31e0::1f",
+      "cidr": "2402:31e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
       "start": "2402:37c0::",
       "count": 32,
       "date": "20171215",
