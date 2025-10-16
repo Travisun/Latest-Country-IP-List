@@ -143871,7 +143871,7 @@
     },
     {
       "registry": "apnic",
-      "country": "BD",
+      "country": "HK",
       "type": "ipv4",
       "start": "103.85.200.0",
       "count": 1024,
@@ -221726,17 +221726,6 @@
       "status": "assigned",
       "end": "103.156.183.255",
       "cidr": "103.156.182.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "TW",
-      "type": "ipv4",
-      "start": "103.156.184.0",
-      "count": 512,
-      "date": "20200929",
-      "status": "allocated",
-      "end": "103.156.185.255",
-      "cidr": "103.156.184.0/23"
     },
     {
       "registry": "apnic",
@@ -375616,6 +375605,39 @@
       "status": "allocated",
       "end": "138.252.42.255",
       "cidr": "138.252.42.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "138.252.43.0",
+      "count": 256,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "138.252.43.255",
+      "cidr": "138.252.43.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "138.252.44.0",
+      "count": 512,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "138.252.45.255",
+      "cidr": "138.252.44.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "138.252.46.0",
+      "count": 256,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "138.252.46.255",
+      "cidr": "138.252.46.0/24"
     },
     {
       "registry": "apnic",
@@ -658970,6 +658992,17 @@
     },
     {
       "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:3540::",
+      "count": 48,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "2001:df6:3540::2f",
+      "cidr": "2001:df6:3540::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "PK",
       "type": "ipv6",
       "start": "2001:df6:3580::",
@@ -658981,6 +659014,17 @@
     },
     {
       "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:35c0::",
+      "count": 48,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "2001:df6:35c0::2f",
+      "cidr": "2001:df6:35c0::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "IN",
       "type": "ipv6",
       "start": "2001:df6:3600::",
@@ -658989,6 +659033,17 @@
       "status": "assigned",
       "end": "2001:df6:3600::2f",
       "cidr": "2001:df6:3600::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:3640::",
+      "count": 48,
+      "date": "20251015",
+      "status": "assigned",
+      "end": "2001:df6:3640::2f",
+      "cidr": "2001:df6:3640::/123"
     },
     {
       "registry": "apnic",
@@ -736242,17 +736297,6 @@
       "status": "allocated",
       "end": "2405:ac0::1f",
       "cidr": "2405:ac0::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "KH",
-      "type": "ipv6",
-      "start": "2405:b00::",
-      "count": 32,
-      "date": "20120903",
-      "status": "allocated",
-      "end": "2405:b00::1f",
-      "cidr": "2405:b00::/123"
     },
     {
       "registry": "apnic",
@@ -885152,7 +885196,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-10-15T03:09:11.161404",
+    "last_updated": "2025-10-16T03:07:40.891742",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
