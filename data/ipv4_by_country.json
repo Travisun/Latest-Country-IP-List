@@ -502598,6 +502598,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "138.252.98.0",
+      "count": 256,
+      "date": "20251024",
+      "status": "assigned",
+      "end": "138.252.98.255",
+      "cidr": "138.252.98.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "139.0.0.0",
       "count": 65536,
       "date": "20110330",
@@ -521829,11 +521840,11 @@
       "country": "NZ",
       "type": "ipv4",
       "start": "103.198.184.0",
-      "count": 512,
+      "count": 256,
       "date": "20151021",
       "status": "allocated",
-      "end": "103.198.185.255",
-      "cidr": "103.198.184.0/23"
+      "end": "103.198.184.255",
+      "cidr": "103.198.184.0/24"
     },
     {
       "registry": "apnic",
