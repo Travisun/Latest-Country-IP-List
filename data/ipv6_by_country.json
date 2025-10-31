@@ -39810,6 +39810,17 @@
       "registry": "apnic",
       "country": "TW",
       "type": "ipv6",
+      "start": "2402:3560::",
+      "count": 32,
+      "date": "20251030",
+      "status": "allocated",
+      "end": "2402:3560::1f",
+      "cidr": "2402:3560::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "TW",
+      "type": "ipv6",
       "start": "2402:4900::",
       "count": 32,
       "date": "20111020",
@@ -91205,6 +91216,17 @@
       "status": "allocated",
       "end": "2402:3480::1f",
       "cidr": "2402:3480::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2402:3520::",
+      "count": 32,
+      "date": "20251030",
+      "status": "allocated",
+      "end": "2402:3520::1f",
+      "cidr": "2402:3520::/123"
     },
     {
       "registry": "apnic",
