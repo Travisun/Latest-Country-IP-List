@@ -169948,6 +169948,17 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
+      "start": "2402:3620::",
+      "count": 32,
+      "date": "20251101",
+      "status": "allocated",
+      "end": "2402:3620::1f",
+      "cidr": "2402:3620::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
       "start": "2402:3940::",
       "count": 32,
       "date": "20171218",
