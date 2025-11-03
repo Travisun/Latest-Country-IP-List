@@ -769612,7 +769612,7 @@
     },
     {
       "registry": "apnic",
-      "country": "",
+      "country": "AU",
       "type": "asn",
       "start": "4857",
       "count": 1,
@@ -777163,7 +777163,7 @@
     },
     {
       "registry": "apnic",
-      "country": "",
+      "country": "AU",
       "type": "asn",
       "start": "17536",
       "count": 1,
@@ -781564,7 +781564,7 @@
     },
     {
       "registry": "apnic",
-      "country": "",
+      "country": "AU",
       "type": "asn",
       "start": "23646",
       "count": 1,
@@ -782149,7 +782149,7 @@
     },
     {
       "registry": "apnic",
-      "country": "",
+      "country": "AU",
       "type": "asn",
       "start": "23723",
       "count": 1,
@@ -850630,6 +850630,15 @@
     },
     {
       "registry": "apnic",
+      "country": "AU",
+      "type": "asn",
+      "start": "139649",
+      "count": 1,
+      "date": "20251102",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "MN",
       "type": "asn",
       "start": "139650",
@@ -886333,7 +886342,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-11-02T03:19:22.240292",
+    "last_updated": "2025-11-03T03:21:39.370397",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
