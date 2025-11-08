@@ -116087,17 +116087,6 @@
       "registry": "apnic",
       "country": "MY",
       "type": "ipv6",
-      "start": "2405:e980::",
-      "count": 32,
-      "date": "20160714",
-      "status": "allocated",
-      "end": "2405:e980::1f",
-      "cidr": "2405:e980::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "MY",
-      "type": "ipv6",
       "start": "2405:f780::",
       "count": 32,
       "date": "20160719",
