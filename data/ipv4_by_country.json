@@ -309882,6 +309882,28 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv4",
+      "start": "138.252.200.0",
+      "count": 512,
+      "date": "20251113",
+      "status": "assigned",
+      "end": "138.252.201.255",
+      "cidr": "138.252.200.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
+      "start": "138.252.204.0",
+      "count": 512,
+      "date": "20251113",
+      "status": "allocated",
+      "end": "138.252.205.255",
+      "cidr": "138.252.204.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
       "start": "139.5.0.0",
       "count": 1024,
       "date": "20160229",
@@ -401764,6 +401786,17 @@
       "registry": "apnic",
       "country": "HK",
       "type": "ipv4",
+      "start": "103.96.128.0",
+      "count": 1024,
+      "date": "20170705",
+      "status": "assigned",
+      "end": "103.96.131.255",
+      "cidr": "103.96.128.0/22"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv4",
       "start": "103.96.148.0",
       "count": 1024,
       "date": "20170707",
@@ -411329,6 +411362,17 @@
       "status": "allocated",
       "end": "138.252.81.255",
       "cidr": "138.252.80.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv4",
+      "start": "138.252.196.0",
+      "count": 512,
+      "date": "20251113",
+      "status": "allocated",
+      "end": "138.252.197.255",
+      "cidr": "138.252.196.0/23"
     },
     {
       "registry": "apnic",
@@ -502862,6 +502906,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "138.252.193.0",
+      "count": 256,
+      "date": "20251113",
+      "status": "assigned",
+      "end": "138.252.193.255",
+      "cidr": "138.252.193.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "138.252.203.0",
+      "count": 256,
+      "date": "20251113",
+      "status": "assigned",
+      "end": "138.252.203.255",
+      "cidr": "138.252.203.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "139.0.0.0",
       "count": 65536,
       "date": "20110330",
@@ -542117,11 +542183,11 @@
       "country": "BD",
       "type": "ipv4",
       "start": "103.88.24.0",
-      "count": 1024,
+      "count": 512,
       "date": "20170316",
       "status": "allocated",
-      "end": "103.88.27.255",
-      "cidr": "103.88.24.0/22"
+      "end": "103.88.25.255",
+      "cidr": "103.88.24.0/23"
     },
     {
       "registry": "apnic",
@@ -548590,6 +548656,17 @@
       "status": "assigned",
       "end": "103.152.11.255",
       "cidr": "103.152.10.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "103.152.18.0",
+      "count": 512,
+      "date": "20200610",
+      "status": "allocated",
+      "end": "103.152.19.255",
+      "cidr": "103.152.18.0/23"
     },
     {
       "registry": "apnic",
@@ -557071,6 +557148,17 @@
       "status": "allocated",
       "end": "138.252.187.255",
       "cidr": "138.252.186.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "138.252.198.0",
+      "count": 512,
+      "date": "20251113",
+      "status": "allocated",
+      "end": "138.252.199.255",
+      "cidr": "138.252.198.0/23"
     },
     {
       "registry": "apnic",
@@ -570357,6 +570445,17 @@
       "registry": "apnic",
       "country": "MN",
       "type": "ipv4",
+      "start": "138.252.202.0",
+      "count": 256,
+      "date": "20251113",
+      "status": "assigned",
+      "end": "138.252.202.255",
+      "cidr": "138.252.202.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "MN",
+      "type": "ipv4",
       "start": "139.5.216.0",
       "count": 1024,
       "date": "20160330",
@@ -572583,17 +572682,6 @@
       "registry": "apnic",
       "country": "AF",
       "type": "ipv4",
-      "start": "103.244.146.0",
-      "count": 512,
-      "date": "20121218",
-      "status": "allocated",
-      "end": "103.244.147.255",
-      "cidr": "103.244.146.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "AF",
-      "type": "ipv4",
       "start": "103.247.198.0",
       "count": 256,
       "date": "20120206",
@@ -572677,17 +572765,6 @@
       "status": "allocated",
       "end": "117.55.197.255",
       "cidr": "117.55.196.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "AF",
-      "type": "ipv4",
-      "start": "117.55.198.0",
-      "count": 256,
-      "date": "20070702",
-      "status": "allocated",
-      "end": "117.55.198.255",
-      "cidr": "117.55.198.0/24"
     },
     {
       "registry": "apnic",
@@ -586336,6 +586413,17 @@
       "status": "allocated",
       "end": "103.76.117.255",
       "cidr": "103.76.116.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "LT",
+      "type": "ipv4",
+      "start": "103.88.26.0",
+      "count": 512,
+      "date": "20170316",
+      "status": "allocated",
+      "end": "103.88.27.255",
+      "cidr": "103.88.26.0/23"
     },
     {
       "registry": "apnic",
