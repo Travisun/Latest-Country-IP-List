@@ -12403,17 +12403,6 @@
       "registry": "apnic",
       "country": "SG",
       "type": "ipv6",
-      "start": "2404:33c0::",
-      "count": 32,
-      "date": "20190103",
-      "status": "allocated",
-      "end": "2404:33c0::1f",
-      "cidr": "2404:33c0::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "SG",
-      "type": "ipv6",
       "start": "2404:39c0::",
       "count": 32,
       "date": "20190108",
@@ -87558,6 +87547,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df6:5dc0::",
+      "count": 48,
+      "date": "20251126",
+      "status": "assigned",
+      "end": "2001:df6:5dc0::2f",
+      "cidr": "2001:df6:5dc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:5e40::",
+      "count": 48,
+      "date": "20251126",
+      "status": "assigned",
+      "end": "2001:df6:5e40::2f",
+      "cidr": "2001:df6:5e40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df6:5f00::",
       "count": 48,
       "date": "20180831",
@@ -149121,17 +149132,6 @@
       "status": "allocated",
       "end": "2401:8ba0::1f",
       "cidr": "2401:8ba0::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "PH",
-      "type": "ipv6",
-      "start": "2401:8e80::",
-      "count": 32,
-      "date": "20140912",
-      "status": "allocated",
-      "end": "2401:8e80::1f",
-      "cidr": "2401:8e80::/123"
     },
     {
       "registry": "apnic",
