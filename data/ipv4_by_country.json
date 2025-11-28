@@ -115803,17 +115803,6 @@
       "registry": "apnic",
       "country": "CN",
       "type": "ipv4",
-      "start": "103.154.242.0",
-      "count": 512,
-      "date": "20200820",
-      "status": "allocated",
-      "end": "103.154.243.255",
-      "cidr": "103.154.242.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "CN",
-      "type": "ipv4",
       "start": "103.155.14.0",
       "count": 512,
       "date": "20200824",
@@ -404762,6 +404751,17 @@
       "status": "allocated",
       "end": "103.154.183.255",
       "cidr": "103.154.182.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv4",
+      "start": "103.154.242.0",
+      "count": 512,
+      "date": "20200820",
+      "status": "allocated",
+      "end": "103.154.243.255",
+      "cidr": "103.154.242.0/23"
     },
     {
       "registry": "apnic",
