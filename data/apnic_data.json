@@ -892143,10 +892143,19 @@
       "count": 1,
       "date": "20251205",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "asn",
+      "start": "154409",
+      "count": 1,
+      "date": "20251206",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-06T03:14:37.161436",
+    "last_updated": "2025-12-07T03:39:57.208933",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
