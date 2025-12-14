@@ -880547,6 +880547,15 @@
     },
     {
       "registry": "apnic",
+      "country": "IN",
+      "type": "asn",
+      "start": "151841",
+      "count": 1,
+      "date": "20251213",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "AU",
       "type": "asn",
       "start": "151842",
@@ -892886,7 +892895,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-13T03:20:19.972070",
+    "last_updated": "2025-12-14T03:42:30.806712",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
