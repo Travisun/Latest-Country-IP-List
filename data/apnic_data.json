@@ -892892,10 +892892,19 @@
       "count": 2,
       "date": "20251212",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "asn",
+      "start": "154429",
+      "count": 1,
+      "date": "20251214",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-14T03:42:30.806712",
+    "last_updated": "2025-12-15T03:46:13.592656",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
