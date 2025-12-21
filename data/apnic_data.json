@@ -893560,10 +893560,19 @@
       "count": 1,
       "date": "20251219",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "154456",
+      "count": 1,
+      "date": "20251219",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-20T03:20:04.657469",
+    "last_updated": "2025-12-21T03:42:30.290946",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
