@@ -893569,10 +893569,19 @@
       "count": 1,
       "date": "20251219",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "154457",
+      "count": 1,
+      "date": "20251220",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-21T03:42:30.290946",
+    "last_updated": "2025-12-22T03:47:13.654023",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
