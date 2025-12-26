@@ -192014,11 +192014,22 @@
       "country": "JP",
       "type": "ipv4",
       "start": "126.52.16.0",
-      "count": 4096,
+      "count": 2048,
+      "date": "20050208",
+      "status": "allocated",
+      "end": "126.52.23.255",
+      "cidr": "126.52.16.0/21"
+    },
+    {
+      "registry": "apnic",
+      "country": "JP",
+      "type": "ipv4",
+      "start": "126.52.24.0",
+      "count": 2048,
       "date": "20050208",
       "status": "allocated",
       "end": "126.52.31.255",
-      "cidr": "126.52.16.0/20"
+      "cidr": "126.52.24.0/21"
     },
     {
       "registry": "apnic",
