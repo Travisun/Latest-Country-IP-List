@@ -108605,6 +108605,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv6",
+      "start": "2001:df6:80c0::",
+      "count": 48,
+      "date": "20251226",
+      "status": "assigned",
+      "end": "2001:df6:80c0::2f",
+      "cidr": "2001:df6:80c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
       "start": "2001:df6:9780::",
       "count": 48,
       "date": "20210429",
