@@ -894000,10 +894000,19 @@
       "count": 1,
       "date": "20251224",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "PK",
+      "type": "asn",
+      "start": "154474",
+      "count": 1,
+      "date": "20251226",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2025-12-27T03:35:55.725764",
+    "last_updated": "2025-12-28T03:51:55.426683",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
