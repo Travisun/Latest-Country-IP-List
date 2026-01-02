@@ -321476,6 +321476,17 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv4",
+      "start": "192.26.215.0",
+      "count": 256,
+      "date": "20260101",
+      "status": "allocated",
+      "end": "192.26.215.255",
+      "cidr": "192.26.215.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
       "start": "192.51.174.0",
       "count": 256,
       "date": "20250724",
@@ -321570,6 +321581,17 @@
       "status": "assigned",
       "end": "192.188.90.255",
       "cidr": "192.188.90.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
+      "start": "192.203.156.0",
+      "count": 512,
+      "date": "20260101",
+      "status": "allocated",
+      "end": "192.203.157.255",
+      "cidr": "192.203.156.0/23"
     },
     {
       "registry": "apnic",
