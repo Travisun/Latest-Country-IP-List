@@ -171774,6 +171774,17 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
+      "start": "2402:44e0::",
+      "count": 32,
+      "date": "20260104",
+      "status": "allocated",
+      "end": "2402:44e0::1f",
+      "cidr": "2402:44e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
       "start": "2402:48c0::",
       "count": 32,
       "date": "20180105",

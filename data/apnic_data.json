@@ -452641,6 +452641,17 @@
     },
     {
       "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
+      "start": "192.232.34.0",
+      "count": 512,
+      "date": "20260104",
+      "status": "allocated",
+      "end": "192.232.35.255",
+      "cidr": "192.232.34.0/23"
+    },
+    {
+      "registry": "apnic",
       "country": "AU",
       "type": "ipv4",
       "start": "192.232.128.0",
@@ -718249,6 +718260,17 @@
     },
     {
       "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
+      "start": "2402:44e0::",
+      "count": 32,
+      "date": "20260104",
+      "status": "allocated",
+      "end": "2402:44e0::1f",
+      "cidr": "2402:44e0::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "CN",
       "type": "ipv6",
       "start": "2402:4500::",
@@ -894964,7 +894986,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-04T03:55:25.927618",
+    "last_updated": "2026-01-05T04:00:03.909231",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
