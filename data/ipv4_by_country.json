@@ -37074,6 +37074,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv4",
+      "start": "192.43.174.0",
+      "count": 256,
+      "date": "20260106",
+      "status": "allocated",
+      "end": "192.43.174.255",
+      "cidr": "192.43.174.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
       "start": "192.43.207.0",
       "count": 256,
       "date": "19881205",
@@ -115847,6 +115858,17 @@
       "registry": "apnic",
       "country": "CN",
       "type": "ipv4",
+      "start": "103.153.128.0",
+      "count": 512,
+      "date": "20200720",
+      "status": "allocated",
+      "end": "103.153.129.255",
+      "cidr": "103.153.128.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
       "start": "103.153.132.0",
       "count": 512,
       "date": "20200720",
@@ -145168,6 +145190,28 @@
       "status": "allocated",
       "end": "192.232.35.255",
       "cidr": "192.232.34.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
+      "start": "192.232.44.0",
+      "count": 512,
+      "date": "20260106",
+      "status": "allocated",
+      "end": "192.232.45.255",
+      "cidr": "192.232.44.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
+      "start": "192.232.46.0",
+      "count": 512,
+      "date": "20260106",
+      "status": "allocated",
+      "end": "192.232.47.255",
+      "cidr": "192.232.46.0/23"
     },
     {
       "registry": "apnic",
@@ -433149,6 +433193,17 @@
       "registry": "apnic",
       "country": "PH",
       "type": "ipv4",
+      "start": "192.42.86.0",
+      "count": 256,
+      "date": "20260106",
+      "status": "allocated",
+      "end": "192.42.86.255",
+      "cidr": "192.42.86.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "ipv4",
       "start": "192.82.52.0",
       "count": 1024,
       "date": "19900530",
@@ -573309,6 +573364,17 @@
       "status": "allocated",
       "end": "192.188.87.255",
       "cidr": "192.188.86.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "PK",
+      "type": "ipv4",
+      "start": "192.232.42.0",
+      "count": 512,
+      "date": "20260106",
+      "status": "allocated",
+      "end": "192.232.43.255",
+      "cidr": "192.232.42.0/23"
     },
     {
       "registry": "apnic",
