@@ -870135,6 +870135,24 @@
     },
     {
       "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "142194",
+      "count": 1,
+      "date": "20260109",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "asn",
+      "start": "142195",
+      "count": 1,
+      "date": "20260110",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "MY",
       "type": "asn",
       "start": "142266",
@@ -895731,7 +895749,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-10T03:37:03.134324",
+    "last_updated": "2026-01-11T03:54:22.867319",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
