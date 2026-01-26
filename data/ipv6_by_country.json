@@ -100540,6 +100540,17 @@
       "registry": "apnic",
       "country": "NZ",
       "type": "ipv6",
+      "start": "2001:df6:a0c0::",
+      "count": 48,
+      "date": "20260125",
+      "status": "assigned",
+      "end": "2001:df6:a0c0::2f",
+      "cidr": "2001:df6:a0c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "NZ",
+      "type": "ipv6",
       "start": "2001:df6:be00::",
       "count": 48,
       "date": "20161123",
