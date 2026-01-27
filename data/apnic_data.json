@@ -391030,6 +391030,17 @@
     },
     {
       "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "151.158.82.0",
+      "count": 512,
+      "date": "20260126",
+      "status": "assigned",
+      "end": "151.158.83.255",
+      "cidr": "151.158.82.0/23"
+    },
+    {
+      "registry": "apnic",
       "country": "AU",
       "type": "ipv4",
       "start": "151.178.0.0",
@@ -670245,6 +670256,28 @@
     },
     {
       "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:a140::",
+      "count": 48,
+      "date": "20260126",
+      "status": "assigned",
+      "end": "2001:df6:a140::2f",
+      "cidr": "2001:df6:a140::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
+      "start": "2001:df6:a1c0::",
+      "count": 48,
+      "date": "20260126",
+      "status": "assigned",
+      "end": "2001:df6:a1c0::2f",
+      "cidr": "2001:df6:a1c0::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
       "start": "2001:df6:a280::",
@@ -720182,6 +720215,17 @@
       "status": "allocated",
       "end": "2402:4ac0::1f",
       "cidr": "2402:4ac0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
+      "start": "2402:4ae0::",
+      "count": 32,
+      "date": "20260126",
+      "status": "allocated",
+      "end": "2402:4ae0::1f",
+      "cidr": "2402:4ae0::/123"
     },
     {
       "registry": "apnic",
@@ -871500,6 +871544,24 @@
     },
     {
       "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "142240",
+      "count": 1,
+      "date": "20260125",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "asn",
+      "start": "142241",
+      "count": 1,
+      "date": "20260126",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "MY",
       "type": "asn",
       "start": "142266",
@@ -897078,7 +897140,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-26T04:01:23.989047",
+    "last_updated": "2026-01-27T03:51:41.839490",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
