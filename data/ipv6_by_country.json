@@ -88570,6 +88570,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df6:ae40::",
+      "count": 48,
+      "date": "20260205",
+      "status": "assigned",
+      "end": "2001:df6:ae40::2f",
+      "cidr": "2001:df6:ae40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df6:af00::",
       "count": 48,
       "date": "20180917",
@@ -134214,6 +134225,28 @@
       "status": "assigned",
       "end": "2001:df6:ae00::2f",
       "cidr": "2001:df6:ae00::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df6:aec0::",
+      "count": 48,
+      "date": "20260205",
+      "status": "assigned",
+      "end": "2001:df6:aec0::2f",
+      "cidr": "2001:df6:aec0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df6:af40::",
+      "count": 48,
+      "date": "20260205",
+      "status": "assigned",
+      "end": "2001:df6:af40::2f",
+      "cidr": "2001:df6:af40::/123"
     },
     {
       "registry": "apnic",
