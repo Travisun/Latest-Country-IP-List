@@ -898640,10 +898640,19 @@
       "count": 1,
       "date": "20260206",
       "status": "allocated"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "asn",
+      "start": "154489",
+      "count": 1,
+      "date": "20260206",
+      "status": "allocated"
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-07T04:12:11.419147",
+    "last_updated": "2026-02-08T04:36:10.169623",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
