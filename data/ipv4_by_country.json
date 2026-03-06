@@ -318385,6 +318385,39 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv4",
+      "start": "163.128.12.0",
+      "count": 512,
+      "date": "20260305",
+      "status": "assigned",
+      "end": "163.128.13.255",
+      "cidr": "163.128.12.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
+      "start": "163.128.14.0",
+      "count": 256,
+      "date": "20260305",
+      "status": "assigned",
+      "end": "163.128.14.255",
+      "cidr": "163.128.14.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
+      "start": "163.128.16.0",
+      "count": 256,
+      "date": "20260305",
+      "status": "allocated",
+      "end": "163.128.16.255",
+      "cidr": "163.128.16.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
       "start": "163.223.0.0",
       "count": 512,
       "date": "20250303",
@@ -515072,6 +515105,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "163.128.11.0",
+      "count": 256,
+      "date": "20260305",
+      "status": "assigned",
+      "end": "163.128.11.255",
+      "cidr": "163.128.11.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.128.15.0",
+      "count": 256,
+      "date": "20260305",
+      "status": "assigned",
+      "end": "163.128.15.255",
+      "cidr": "163.128.15.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "163.223.2.0",
       "count": 512,
       "date": "20250304",
@@ -561581,6 +561636,17 @@
       "status": "allocated",
       "end": "103.240.251.255",
       "cidr": "103.240.248.0/22"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "103.241.194.0",
+      "count": 512,
+      "date": "20231004",
+      "status": "allocated",
+      "end": "103.241.195.255",
+      "cidr": "103.241.194.0/23"
     },
     {
       "registry": "apnic",
