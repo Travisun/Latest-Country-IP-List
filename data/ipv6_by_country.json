@@ -88966,6 +88966,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df6:d240::",
+      "count": 48,
+      "date": "20260313",
+      "status": "assigned",
+      "end": "2001:df6:d240::2f",
+      "cidr": "2001:df6:d240::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:d2c0::",
+      "count": 48,
+      "date": "20260313",
+      "status": "assigned",
+      "end": "2001:df6:d2c0::2f",
+      "cidr": "2001:df6:d2c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df6:d700::",
       "count": 48,
       "date": "20181002",
