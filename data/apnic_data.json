@@ -901082,6 +901082,15 @@
     },
     {
       "registry": "apnic",
+      "country": "PK",
+      "type": "asn",
+      "start": "154549",
+      "count": 1,
+      "date": "20260314",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "HK",
       "type": "asn",
       "start": "199073",
@@ -901091,7 +901100,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-15T04:37:03.213797",
+    "last_updated": "2026-03-16T04:44:34.485158",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
