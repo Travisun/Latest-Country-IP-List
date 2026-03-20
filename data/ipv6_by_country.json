@@ -44520,6 +44520,17 @@
       "registry": "apnic",
       "country": "HK",
       "type": "ipv6",
+      "start": "2001:dff::",
+      "count": 32,
+      "date": "20260319",
+      "status": "allocated",
+      "end": "2001:dff::1f",
+      "cidr": "2001:dff::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv6",
       "start": "2001:eb0::",
       "count": 32,
       "date": "20040401",
@@ -89027,6 +89038,17 @@
       "status": "assigned",
       "end": "2001:df6:d700::2f",
       "cidr": "2001:df6:d700::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:d740::",
+      "count": 48,
+      "date": "20260319",
+      "status": "assigned",
+      "end": "2001:df6:d740::2f",
+      "cidr": "2001:df6:d740::/123"
     },
     {
       "registry": "apnic",
@@ -143014,6 +143036,17 @@
       "status": "allocated",
       "end": "2402:50e0::1f",
       "cidr": "2402:50e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2402:5220::",
+      "count": 32,
+      "date": "20260319",
+      "status": "allocated",
+      "end": "2402:5220::1f",
+      "cidr": "2402:5220::/123"
     },
     {
       "registry": "apnic",
