@@ -25489,7 +25489,7 @@
     },
     {
       "registry": "apnic",
-      "country": "IN",
+      "country": "US",
       "type": "ipv4",
       "start": "43.242.224.0",
       "count": 1024,
@@ -901613,7 +901613,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-22T04:24:58.428464",
+    "last_updated": "2026-03-23T04:33:56.938975",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
