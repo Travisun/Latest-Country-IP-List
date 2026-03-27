@@ -5515,6 +5515,17 @@
       "registry": "apnic",
       "country": "JP",
       "type": "ipv6",
+      "start": "2402:52e0::",
+      "count": 32,
+      "date": "20260326",
+      "status": "allocated",
+      "end": "2402:52e0::1f",
+      "cidr": "2402:52e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "JP",
+      "type": "ipv6",
       "start": "2402:56c0::",
       "count": 32,
       "date": "20180115",
@@ -33038,17 +33049,6 @@
       "status": "allocated",
       "end": "2405:fdc0::1f",
       "cidr": "2405:fdc0::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "CN",
-      "type": "ipv6",
-      "start": "2405:ff80::",
-      "count": 32,
-      "date": "20160720",
-      "status": "allocated",
-      "end": "2405:ff80::1f",
-      "cidr": "2405:ff80::/123"
     },
     {
       "registry": "apnic",
@@ -61105,17 +61105,6 @@
       "status": "allocated",
       "end": "2401:9080::1f",
       "cidr": "2401:9080::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "AU",
-      "type": "ipv6",
-      "start": "2401:9300::",
-      "count": 32,
-      "date": "20110726",
-      "status": "allocated",
-      "end": "2401:9300::1f",
-      "cidr": "2401:9300::/123"
     },
     {
       "registry": "apnic",
@@ -101107,6 +101096,17 @@
       "status": "assigned",
       "end": "2001:df6:d300::2f",
       "cidr": "2001:df6:d300::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "NZ",
+      "type": "ipv6",
+      "start": "2001:df6:dac0::",
+      "count": 48,
+      "date": "20260325",
+      "status": "assigned",
+      "end": "2001:df6:dac0::2f",
+      "cidr": "2001:df6:dac0::/123"
     },
     {
       "registry": "apnic",
@@ -151959,6 +151959,17 @@
       "status": "allocated",
       "end": "2402:4f40::1f",
       "cidr": "2402:4f40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "ipv6",
+      "start": "2402:52a0::",
+      "count": 32,
+      "date": "20260325",
+      "status": "allocated",
+      "end": "2402:52a0::1f",
+      "cidr": "2402:52a0::/123"
     },
     {
       "registry": "apnic",
