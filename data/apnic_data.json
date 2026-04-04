@@ -422787,6 +422787,17 @@
     },
     {
       "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
+      "start": "163.128.152.0",
+      "count": 512,
+      "date": "20260403",
+      "status": "allocated",
+      "end": "163.128.153.255",
+      "cidr": "163.128.152.0/23"
+    },
+    {
+      "registry": "apnic",
       "country": "JP",
       "type": "ipv4",
       "start": "163.130.0.0",
@@ -902745,7 +902756,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-04-03T04:35:11.174180",
+    "last_updated": "2026-04-04T04:23:15.261187",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
