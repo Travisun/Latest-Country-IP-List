@@ -5526,6 +5526,17 @@
       "registry": "apnic",
       "country": "JP",
       "type": "ipv6",
+      "start": "2402:54a0::",
+      "count": 32,
+      "date": "20260405",
+      "status": "allocated",
+      "end": "2402:54a0::1f",
+      "cidr": "2402:54a0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "JP",
+      "type": "ipv6",
       "start": "2402:56c0::",
       "count": 32,
       "date": "20180115",
