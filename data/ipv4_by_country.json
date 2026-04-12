@@ -516832,6 +516832,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "163.128.206.0",
+      "count": 256,
+      "date": "20260410",
+      "status": "assigned",
+      "end": "163.128.206.255",
+      "cidr": "163.128.206.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.128.207.0",
+      "count": 256,
+      "date": "20260411",
+      "status": "assigned",
+      "end": "163.128.207.255",
+      "cidr": "163.128.207.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "163.223.2.0",
       "count": 512,
       "date": "20250304",

@@ -89307,12 +89307,34 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df6:e840::",
+      "count": 48,
+      "date": "20260410",
+      "status": "assigned",
+      "end": "2001:df6:e840::2f",
+      "cidr": "2001:df6:e840::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df6:e880::",
       "count": 48,
       "date": "20210628",
       "status": "assigned",
       "end": "2001:df6:e880::2f",
       "cidr": "2001:df6:e880::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df6:e8c0::",
+      "count": 48,
+      "date": "20260411",
+      "status": "assigned",
+      "end": "2001:df6:e8c0::2f",
+      "cidr": "2001:df6:e8c0::/123"
     },
     {
       "registry": "apnic",
