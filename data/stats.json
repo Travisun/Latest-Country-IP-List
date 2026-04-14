@@ -1,8 +1,8 @@
 {
-  "total_ipv4_entries": 54220,
-  "total_ipv6_entries": 16822,
-  "total_asn_entries": 13596,
+  "total_ipv4_entries": 54230,
+  "total_ipv6_entries": 16832,
+  "total_asn_entries": 13602,
   "countries_with_ipv4": 79,
   "countries_with_ipv6": 76,
-  "last_updated": "2026-04-13T05:19:31.528664"
+  "last_updated": "2026-04-14T04:49:58.318503"
 }
