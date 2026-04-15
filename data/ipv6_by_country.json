@@ -3095,6 +3095,17 @@
       "registry": "apnic",
       "country": "JP",
       "type": "ipv6",
+      "start": "2001:df6:edc0::",
+      "count": 48,
+      "date": "20260414",
+      "status": "assigned",
+      "end": "2001:df6:edc0::2f",
+      "cidr": "2001:df6:edc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "JP",
+      "type": "ipv6",
       "start": "2001:df7:4800::",
       "count": 43,
       "date": "20140704",
@@ -93113,6 +93124,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2402:57a0::",
+      "count": 32,
+      "date": "20260414",
+      "status": "allocated",
+      "end": "2402:57a0::1f",
+      "cidr": "2402:57a0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2402:5f00::",
       "count": 32,
       "date": "20111027",
@@ -135528,6 +135550,28 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv6",
+      "start": "2001:df6:ee40::",
+      "count": 48,
+      "date": "20260414",
+      "status": "assigned",
+      "end": "2001:df6:ee40::2f",
+      "cidr": "2001:df6:ee40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df6:eec0::",
+      "count": 48,
+      "date": "20260414",
+      "status": "assigned",
+      "end": "2001:df6:eec0::2f",
+      "cidr": "2001:df6:eec0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
       "start": "2001:df6:ef80::",
       "count": 48,
       "date": "20210630",
@@ -143520,6 +143564,17 @@
       "status": "allocated",
       "end": "2402:57c0::1f",
       "cidr": "2402:57c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2402:57e0::",
+      "count": 32,
+      "date": "20260414",
+      "status": "allocated",
+      "end": "2402:57e0::1f",
+      "cidr": "2402:57e0::/123"
     },
     {
       "registry": "apnic",
