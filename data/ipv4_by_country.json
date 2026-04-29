@@ -373270,17 +373270,6 @@
       "registry": "apnic",
       "country": "SG",
       "type": "ipv4",
-      "start": "103.149.23.0",
-      "count": 256,
-      "date": "20200304",
-      "status": "assigned",
-      "end": "103.149.23.255",
-      "cidr": "103.149.23.0/24"
-    },
-    {
-      "registry": "apnic",
-      "country": "SG",
-      "type": "ipv4",
       "start": "103.149.46.0",
       "count": 256,
       "date": "20200306",
@@ -516332,6 +516321,39 @@
       "status": "allocated",
       "end": "162.4.39.255",
       "cidr": "162.4.38.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "162.4.44.0",
+      "count": 256,
+      "date": "20260428",
+      "status": "assigned",
+      "end": "162.4.44.255",
+      "cidr": "162.4.44.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "162.4.45.0",
+      "count": 256,
+      "date": "20260428",
+      "status": "assigned",
+      "end": "162.4.45.255",
+      "cidr": "162.4.45.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "162.4.46.0",
+      "count": 256,
+      "date": "20260428",
+      "status": "assigned",
+      "end": "162.4.46.255",
+      "cidr": "162.4.46.0/24"
     },
     {
       "registry": "apnic",
