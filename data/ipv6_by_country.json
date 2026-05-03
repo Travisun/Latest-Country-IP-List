@@ -135880,6 +135880,17 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv6",
+      "start": "2001:df6:ff40::",
+      "count": 48,
+      "date": "20260502",
+      "status": "assigned",
+      "end": "2001:df6:ff40::2f",
+      "cidr": "2001:df6:ff40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
       "start": "2001:df6:ff80::",
       "count": 48,
       "date": "20210712",
@@ -143806,6 +143817,17 @@
       "status": "allocated",
       "end": "2402:5b00::1f",
       "cidr": "2402:5b00::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2402:5be0::",
+      "count": 32,
+      "date": "20260502",
+      "status": "allocated",
+      "end": "2402:5be0::1f",
+      "cidr": "2402:5be0::/123"
     },
     {
       "registry": "apnic",
