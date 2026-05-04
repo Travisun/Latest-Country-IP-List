@@ -418321,6 +418321,17 @@
     },
     {
       "registry": "apnic",
+      "country": "IN",
+      "type": "ipv4",
+      "start": "162.4.74.0",
+      "count": 512,
+      "date": "20260503",
+      "status": "assigned",
+      "end": "162.4.75.255",
+      "cidr": "162.4.74.0/23"
+    },
+    {
+      "registry": "apnic",
       "country": "PK",
       "type": "ipv4",
       "start": "162.12.208.0",
@@ -873594,6 +873605,15 @@
     },
     {
       "registry": "apnic",
+      "country": "IN",
+      "type": "asn",
+      "start": "141173",
+      "count": 1,
+      "date": "20260503",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "HK",
       "type": "asn",
       "start": "141174",
@@ -905409,7 +905429,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-05-03T05:36:07.640982",
+    "last_updated": "2026-05-04T05:40:22.097706",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
