@@ -110255,6 +110255,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv6",
+      "start": "2001:df7:1040::",
+      "count": 48,
+      "date": "20260524",
+      "status": "assigned",
+      "end": "2001:df7:1040::2f",
+      "cidr": "2001:df7:1040::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
       "start": "2001:df7:1500::",
       "count": 48,
       "date": "20181029",
