@@ -47985,6 +47985,17 @@
       "registry": "apnic",
       "country": "HK",
       "type": "ipv6",
+      "start": "2404:2b40::",
+      "count": 32,
+      "date": "20181227",
+      "status": "allocated",
+      "end": "2404:2b40::1f",
+      "cidr": "2404:2b40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv6",
       "start": "2404:3500::",
       "count": 32,
       "date": "20120619",
