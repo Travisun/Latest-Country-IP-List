@@ -179498,6 +179498,17 @@
       "registry": "apnic",
       "country": "KH",
       "type": "ipv6",
+      "start": "2001:df7:1440::",
+      "count": 48,
+      "date": "20260530",
+      "status": "assigned",
+      "end": "2001:df7:1440::2f",
+      "cidr": "2001:df7:1440::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "KH",
+      "type": "ipv6",
       "start": "2001:df7:7f80::",
       "count": 48,
       "date": "20210907",
