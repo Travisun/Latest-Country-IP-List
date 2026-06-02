@@ -17395,17 +17395,6 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv4",
-      "start": "103.150.144.0",
-      "count": 512,
-      "date": "20200417",
-      "status": "assigned",
-      "end": "103.150.145.255",
-      "cidr": "103.150.144.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "AU",
-      "type": "ipv4",
       "start": "103.150.171.0",
       "count": 256,
       "date": "20200421",
@@ -60059,17 +60048,6 @@
       "status": "assigned",
       "end": "203.28.63.255",
       "cidr": "203.28.63.0/24"
-    },
-    {
-      "registry": "apnic",
-      "country": "AU",
-      "type": "ipv4",
-      "start": "203.28.70.0",
-      "count": 512,
-      "date": "19960607",
-      "status": "allocated",
-      "end": "203.28.71.255",
-      "cidr": "203.28.70.0/23"
     },
     {
       "registry": "apnic",
@@ -142077,6 +142055,17 @@
       "status": "allocated",
       "end": "162.4.199.255",
       "cidr": "162.4.198.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "CN",
+      "type": "ipv4",
+      "start": "162.4.202.0",
+      "count": 512,
+      "date": "20260601",
+      "status": "allocated",
+      "end": "162.4.203.255",
+      "cidr": "162.4.202.0/23"
     },
     {
       "registry": "apnic",
@@ -455008,6 +454997,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv4",
+      "start": "162.4.200.0",
+      "count": 512,
+      "date": "20260601",
+      "status": "allocated",
+      "end": "162.4.201.255",
+      "cidr": "162.4.200.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv4",
       "start": "163.44.192.0",
       "count": 1024,
       "date": "19920724",
@@ -592930,6 +592930,17 @@
       "status": "assigned",
       "end": "203.24.98.255",
       "cidr": "203.24.98.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "CY",
+      "type": "ipv4",
+      "start": "203.28.70.0",
+      "count": 512,
+      "date": "19960607",
+      "status": "allocated",
+      "end": "203.28.71.255",
+      "cidr": "203.28.70.0/23"
     },
     {
       "registry": "apnic",
