@@ -12018,6 +12018,17 @@
       "registry": "apnic",
       "country": "SG",
       "type": "ipv6",
+      "start": "2402:60e0::",
+      "count": 32,
+      "date": "20260601",
+      "status": "allocated",
+      "end": "2402:60e0::1f",
+      "cidr": "2402:60e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "SG",
+      "type": "ipv6",
       "start": "2402:7480::",
       "count": 32,
       "date": "20150611",
@@ -47100,6 +47111,17 @@
       "status": "allocated",
       "end": "2402:5dc0::1f",
       "cidr": "2402:5dc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "HK",
+      "type": "ipv6",
+      "start": "2402:6120::",
+      "count": 32,
+      "date": "20260602",
+      "status": "allocated",
+      "end": "2402:6120::1f",
+      "cidr": "2402:6120::/123"
     },
     {
       "registry": "apnic",
@@ -144125,6 +144147,17 @@
       "status": "allocated",
       "end": "2402:5ee0::1f",
       "cidr": "2402:5ee0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2402:6160::",
+      "count": 32,
+      "date": "20260602",
+      "status": "allocated",
+      "end": "2402:6160::1f",
+      "cidr": "2402:6160::/123"
     },
     {
       "registry": "apnic",
