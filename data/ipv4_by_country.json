@@ -373963,17 +373963,6 @@
       "registry": "apnic",
       "country": "SG",
       "type": "ipv4",
-      "start": "103.166.154.0",
-      "count": 512,
-      "date": "20210427",
-      "status": "allocated",
-      "end": "103.166.155.255",
-      "cidr": "103.166.154.0/23"
-    },
-    {
-      "registry": "apnic",
-      "country": "SG",
-      "type": "ipv4",
       "start": "103.166.202.0",
       "count": 512,
       "date": "20210430",
@@ -430963,7 +430952,7 @@
       "start": "103.63.102.0",
       "count": 256,
       "date": "20150713",
-      "status": "assigned",
+      "status": "allocated",
       "end": "103.63.102.255",
       "cidr": "103.63.102.0/24"
     },
