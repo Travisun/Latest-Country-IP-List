@@ -68271,17 +68271,6 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv6",
-      "start": "2407:ec00::",
-      "count": 32,
-      "date": "20100310",
-      "status": "allocated",
-      "end": "2407:ec00::1f",
-      "cidr": "2407:ec00::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "AU",
-      "type": "ipv6",
       "start": "2407:ee00::",
       "count": 32,
       "date": "20110329",
