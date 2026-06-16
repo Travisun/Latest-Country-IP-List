@@ -136507,6 +136507,17 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv6",
+      "start": "2001:df7:1cc0::",
+      "count": 48,
+      "date": "20260615",
+      "status": "assigned",
+      "end": "2001:df7:1cc0::2f",
+      "cidr": "2001:df7:1cc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
       "start": "2001:df7:1e80::",
       "count": 48,
       "date": "20210728",
