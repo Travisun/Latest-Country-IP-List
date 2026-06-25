@@ -90143,6 +90143,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df7:2740::",
+      "count": 48,
+      "date": "20260624",
+      "status": "assigned",
+      "end": "2001:df7:2740::2f",
+      "cidr": "2001:df7:2740::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df7:2900::",
       "count": 48,
       "date": "20181115",
