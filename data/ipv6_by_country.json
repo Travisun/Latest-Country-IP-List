@@ -62881,6 +62881,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv6",
+      "start": "2402:6560::",
+      "count": 32,
+      "date": "20260701",
+      "status": "allocated",
+      "end": "2402:6560::1f",
+      "cidr": "2402:6560::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv6",
       "start": "2402:6580::",
       "count": 32,
       "date": "20150525",
@@ -90215,6 +90226,17 @@
       "status": "assigned",
       "end": "2001:df7:2a40::2f",
       "cidr": "2001:df7:2a40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df7:2ac0::",
+      "count": 48,
+      "date": "20260701",
+      "status": "assigned",
+      "end": "2001:df7:2ac0::2f",
+      "cidr": "2001:df7:2ac0::/123"
     },
     {
       "registry": "apnic",
