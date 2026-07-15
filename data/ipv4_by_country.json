@@ -575717,17 +575717,6 @@
       "registry": "apnic",
       "country": "NZ",
       "type": "ipv4",
-      "start": "202.27.83.0",
-      "count": 256,
-      "date": "19960208",
-      "status": "assigned",
-      "end": "202.27.83.255",
-      "cidr": "202.27.83.0/24"
-    },
-    {
-      "registry": "apnic",
-      "country": "NZ",
-      "type": "ipv4",
       "start": "202.27.85.0",
       "count": 256,
       "date": "19960212",
@@ -591501,6 +591490,17 @@
       "status": "allocated",
       "end": "103.111.89.255",
       "cidr": "103.111.88.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "103.111.90.0",
+      "count": 512,
+      "date": "20180315",
+      "status": "allocated",
+      "end": "103.111.91.255",
+      "cidr": "103.111.90.0/23"
     },
     {
       "registry": "apnic",
@@ -616990,6 +616990,17 @@
       "status": "allocated",
       "end": "160.236.87.255",
       "cidr": "160.236.86.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "PK",
+      "type": "ipv4",
+      "start": "160.236.102.0",
+      "count": 512,
+      "date": "20260714",
+      "status": "allocated",
+      "end": "160.236.103.255",
+      "cidr": "160.236.102.0/23"
     },
     {
       "registry": "apnic",
