@@ -613993,11 +613993,22 @@
       "country": "PK",
       "type": "ipv4",
       "start": "103.159.74.0",
-      "count": 512,
+      "count": 256,
+      "date": "20201125",
+      "status": "allocated",
+      "end": "103.159.74.255",
+      "cidr": "103.159.74.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "PK",
+      "type": "ipv4",
+      "start": "103.159.75.0",
+      "count": 256,
       "date": "20201125",
       "status": "allocated",
       "end": "103.159.75.255",
-      "cidr": "103.159.74.0/23"
+      "cidr": "103.159.75.0/24"
     },
     {
       "registry": "apnic",
