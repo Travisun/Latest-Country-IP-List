@@ -62958,6 +62958,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv6",
+      "start": "2402:6a20::",
+      "count": 32,
+      "date": "20260729",
+      "status": "allocated",
+      "end": "2402:6a20::1f",
+      "cidr": "2402:6a20::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv6",
       "start": "2402:6b80::",
       "count": 32,
       "date": "20150529",
