@@ -565353,6 +565353,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "203.201.190.0",
+      "count": 512,
+      "date": "20260812",
+      "status": "allocated",
+      "end": "203.201.191.255",
+      "cidr": "203.201.190.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "203.207.52.0",
       "count": 1024,
       "date": "20090202",
@@ -585990,6 +586001,17 @@
       "status": "allocated",
       "end": "27.54.151.255",
       "cidr": "27.54.148.0/22"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "27.123.224.0",
+      "count": 512,
+      "date": "20260812",
+      "status": "allocated",
+      "end": "27.123.225.255",
+      "cidr": "27.123.224.0/23"
     },
     {
       "registry": "apnic",
