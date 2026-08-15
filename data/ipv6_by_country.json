@@ -91067,6 +91067,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df7:5c40::",
+      "count": 48,
+      "date": "20260814",
+      "status": "assigned",
+      "end": "2001:df7:5c40::2f",
+      "cidr": "2001:df7:5c40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df7:5cc0::",
+      "count": 48,
+      "date": "20260814",
+      "status": "assigned",
+      "end": "2001:df7:5cc0::2f",
+      "cidr": "2001:df7:5cc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df7:6900::",
       "count": 48,
       "date": "20181220",
@@ -157767,6 +157789,17 @@
       "registry": "apnic",
       "country": "NP",
       "type": "ipv6",
+      "start": "2001:df7:5d40::",
+      "count": 48,
+      "date": "20260814",
+      "status": "assigned",
+      "end": "2001:df7:5d40::2f",
+      "cidr": "2001:df7:5d40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "NP",
+      "type": "ipv6",
       "start": "2001:df7:7880::",
       "count": 48,
       "date": "20210905",
@@ -176713,6 +176746,17 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
+      "start": "2402:6ee0::",
+      "count": 32,
+      "date": "20260814",
+      "status": "allocated",
+      "end": "2402:6ee0::1f",
+      "cidr": "2402:6ee0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
       "start": "2402:76c0::",
       "count": 32,
       "date": "20180209",
@@ -179898,6 +179942,17 @@
       "status": "allocated",
       "end": "2406:6dc0::1f",
       "cidr": "2406:6dc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
+      "start": "2406:6fc0::",
+      "count": 32,
+      "date": "20200909",
+      "status": "allocated",
+      "end": "2406:6fc0::1f",
+      "cidr": "2406:6fc0::/123"
     },
     {
       "registry": "apnic",
