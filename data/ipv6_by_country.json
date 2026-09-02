@@ -58096,6 +58096,17 @@
       "registry": "apnic",
       "country": "AU",
       "type": "ipv6",
+      "start": "2001:df7:6d40::",
+      "count": 48,
+      "date": "20260831",
+      "status": "assigned",
+      "end": "2001:df7:6d40::2f",
+      "cidr": "2001:df7:6d40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv6",
       "start": "2001:df7:7580::",
       "count": 48,
       "date": "20210902",
@@ -91276,6 +91287,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df7:6dc0::",
+      "count": 48,
+      "date": "20260901",
+      "status": "assigned",
+      "end": "2001:df7:6dc0::2f",
+      "cidr": "2001:df7:6dc0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df7:6f00::",
       "count": 48,
       "date": "20181221",
@@ -120313,6 +120335,17 @@
       "registry": "apnic",
       "country": "PG",
       "type": "ipv6",
+      "start": "2402:7320::",
+      "count": 32,
+      "date": "20260901",
+      "status": "allocated",
+      "end": "2402:7320::1f",
+      "cidr": "2402:7320::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "PG",
+      "type": "ipv6",
       "start": "2404:6400::",
       "count": 32,
       "date": "20100211",
@@ -138504,6 +138537,28 @@
       "status": "assigned",
       "end": "2001:df7:6e00::2f",
       "cidr": "2001:df7:6e00::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df7:6e40::",
+      "count": 48,
+      "date": "20260901",
+      "status": "assigned",
+      "end": "2001:df7:6e40::2f",
+      "cidr": "2001:df7:6e40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "IN",
+      "type": "ipv6",
+      "start": "2001:df7:6ec0::",
+      "count": 48,
+      "date": "20260901",
+      "status": "assigned",
+      "end": "2001:df7:6ec0::2f",
+      "cidr": "2001:df7:6ec0::/123"
     },
     {
       "registry": "apnic",
