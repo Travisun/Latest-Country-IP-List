@@ -153361,6 +153361,17 @@
       "registry": "apnic",
       "country": "PH",
       "type": "ipv6",
+      "start": "2001:df7:7240::",
+      "count": 48,
+      "date": "20260903",
+      "status": "assigned",
+      "end": "2001:df7:7240::2f",
+      "cidr": "2001:df7:7240::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "ipv6",
       "start": "2001:df7:7d00::",
       "count": 48,
       "date": "20190108",
