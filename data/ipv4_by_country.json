@@ -493871,6 +493871,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv4",
+      "start": "163.52.114.0",
+      "count": 512,
+      "date": "20260905",
+      "status": "assigned",
+      "end": "163.52.115.255",
+      "cidr": "163.52.114.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv4",
       "start": "163.61.68.0",
       "count": 512,
       "date": "20250206",
