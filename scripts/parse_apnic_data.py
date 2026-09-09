@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-APNIC IP List Parser
-Downloads and parses APNIC delegated IP data
+All RIR IP List Parser
+Downloads from APNIC and parses delegated IP data from all RIRs
 """
 
 import requests
@@ -13,15 +13,23 @@ from typing import Dict, List, Any, Optional
 
 class APNICParser:
     def __init__(self):
-        self.apnic_url = "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
+        self.apnic_urls = ["https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest",
+                           "https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest",
+                           "https://ftp.apnic.net/stats/arin/delegated-arin-extended-latest",
+                           "https://ftp.apnic.net/stats/lacnic/delegated-lacnic-extended-latest",
+                           "https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-extended-latest"]
         self.output_dir = "data"
         
     def download_data(self) -> str:
         """Download APNIC data file"""
-        print("Downloading APNIC data...")
-        response = requests.get(self.apnic_url)
-        response.raise_for_status()
-        return response.text
+        print("Downloading data...")
+        data=""
+        for url in self.apnic_urls:
+            print(url[url.rindex("/")+1:])
+            response = requests.get(url)
+            response.raise_for_status()
+            data += response.text
+        return data
         
     def parse_line(self, line: str) -> Optional[Dict[str, Any]]:
         """Parse a single line of data"""
@@ -63,24 +71,20 @@ class APNICParser:
                 end = ipaddress.IPv4Address(int(start) + count - 1)
                 
                 # Calculate CIDR for IPv4
-                network = ipaddress.summarize_address_range(start, end)
-                cidr_list = list(network)
-                if cidr_list:
-                    cidr = str(cidr_list[0])
-                else:
+                if start == end:
                     cidr = f"{start_ip}/{32}"
-                    
-            elif ip_type == 'ipv6':
-                start = ipaddress.IPv6Address(start_ip)
-                end = ipaddress.IPv6Address(int(start) + count - 1)
-                
-                # Calculate CIDR for IPv6
-                network = ipaddress.summarize_address_range(start, end)
-                cidr_list = list(network)
-                if cidr_list:
-                    cidr = str(cidr_list[0])
                 else:
-                    cidr = f"{start_ip}/{128}"
+                    cidr = ",".join([str(ipn) for ipn in ipaddress.summarize_address_range(start, end)])
+                # Note the above creates cidr lists like "192.168.0.0/23,192.168.2.0/24" for
+                # cases where count is not a power of 2. This is correct behavior
+            elif ip_type == 'ipv6':
+                # Note that for IPv6 the count field is actually the mask - see APNIC documentation
+                start = ipaddress.IPv6Address(start_ip)
+                cidr = f"{start_ip}/{count}"
+                # Calculate End address for IPv6
+                net = ipaddress.IPv6Network(cidr)
+                end = ipaddress.IPv6Address(int(start) + net.num_addresses - 1)
+                
             else:
                 return {'start': start_ip, 'end': start_ip, 'cidr': start_ip}
                 
@@ -125,7 +129,7 @@ class APNICParser:
             'asn': [],
             'metadata': {
                 'last_updated': datetime.now().isoformat(),
-                'source': self.apnic_url
+                'source': self.apnic_urls
             }
         }
         
