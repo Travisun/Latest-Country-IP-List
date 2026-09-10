@@ -12,9 +12,9 @@ import argparse
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-class APNICParser:
+class RIRParser:
     def __init__(self):
-        self.apnic_urls = ["https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest",
+        self.rir_urls = ["https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest",
                            "https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest",
                            "https://ftp.apnic.net/stats/arin/delegated-arin-extended-latest",
                            "https://ftp.apnic.net/stats/lacnic/delegated-lacnic-extended-latest",
@@ -28,12 +28,12 @@ class APNICParser:
         if rirs:
             urls = []
             for rir in rirs:
-                for url in self.apnic_urls:
+                for url in self.rir_urls:
                     if rir in url[url.rindex("/")+1:]:
                         urls.append(url)
                         break
         else:
-            urls = self.apnic_urls
+            urls = self.rir_urls
         for url in urls:
             print(url[url.rindex("/")+1:])
             response = requests.get(url)
@@ -142,7 +142,7 @@ class APNICParser:
             'asn': [],
             'metadata': {
                 'last_updated': datetime.now().isoformat(),
-                'source': self.apnic_urls
+                'source': self.rir_urls
             }
         }
         
@@ -183,30 +183,33 @@ class APNICParser:
         os.makedirs(self.output_dir, exist_ok=True)
         
         # Save complete data
-        with open(f"{self.output_dir}/apnic_data.json", 'w', encoding='utf-8') as f:
+        with open(f"{self.output_dir}/rir_data.json", 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-            
+
         # Save IPv4 data grouped by country
-        ipv4_by_country = {}
-        for entry in data['ipv4']:
-            country = entry['country']
-            if country not in ipv4_by_country:
-                ipv4_by_country[country] = []
-            ipv4_by_country[country].append(entry)
-            
-        with open(f"{self.output_dir}/ipv4_by_country.json", 'w', encoding='utf-8') as f:
-            json.dump(ipv4_by_country, f, indent=2, ensure_ascii=False)
+        if len(data['ipv4']) > 0:
+
+            ipv4_by_country = {}
+            for entry in data['ipv4']:
+                country = entry['country']
+                if country not in ipv4_by_country:
+                    ipv4_by_country[country] = []
+                ipv4_by_country[country].append(entry)
+
+            with open(f"{self.output_dir}/ipv4_by_country.json", 'w', encoding='utf-8') as f:
+                json.dump(ipv4_by_country, f, indent=2, ensure_ascii=False)
             
         # Save IPv6 data grouped by country
-        ipv6_by_country = {}
-        for entry in data['ipv6']:
-            country = entry['country']
-            if country not in ipv6_by_country:
-                ipv6_by_country[country] = []
-            ipv6_by_country[country].append(entry)
-            
-        with open(f"{self.output_dir}/ipv6_by_country.json", 'w', encoding='utf-8') as f:
-            json.dump(ipv6_by_country, f, indent=2, ensure_ascii=False)
+        if len(data['ipv6']) > 0:
+            ipv6_by_country = {}
+            for entry in data['ipv6']:
+                country = entry['country']
+                if country not in ipv6_by_country:
+                    ipv6_by_country[country] = []
+                ipv6_by_country[country].append(entry)
+
+            with open(f"{self.output_dir}/ipv6_by_country.json", 'w', encoding='utf-8') as f:
+                json.dump(ipv6_by_country, f, indent=2, ensure_ascii=False)
             
         # Generate statistics
         stats = {
@@ -236,14 +239,14 @@ class APNICParser:
             # Save data
             self.save_data(parsed_data)
             
-            print("APNIC data processing completed successfully!")
+            print("RIR data processing completed successfully!")
             
         except Exception as e:
-            print(f"Error processing APNIC data: {e}")
+            print(f"Error processing RIR data: {e}")
             raise
 
 if __name__ == "__main__":
-    parser = APNICParser()
+    parser = RIRParser()
     argparser = argparse.ArgumentParser(description='PhishSTOP v0.3')
     argparser.add_argument('--dir', action='store', help='Output director (default ./data )')
     argparser.add_argument('--type', action='store', default='', help='ipv4 or ipv6 - default both')
