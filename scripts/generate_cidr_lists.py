@@ -60,7 +60,7 @@ def validate_cidr(cidr: str) -> bool:
         return False
 
 def main():
-    data_file = "data/apnic_data.json"
+    data_file = "data/rir_data.json"
     
     if not os.path.exists(data_file):
         print(f"Data file {data_file} not found. Please run parse_apnic_data.py first.")
