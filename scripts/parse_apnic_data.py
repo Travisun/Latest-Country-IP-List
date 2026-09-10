@@ -8,6 +8,7 @@ import requests
 import ipaddress
 import json
 import os
+import argparse
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
@@ -20,11 +21,20 @@ class APNICParser:
                            "https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-extended-latest"]
         self.output_dir = "data"
         
-    def download_data(self) -> str:
+    def download_data(self, rirs) -> str:
         """Download APNIC data file"""
         print("Downloading data...")
-        data=""
-        for url in self.apnic_urls:
+        data = ""
+        if rirs:
+            urls = []
+            for rir in rirs:
+                for url in self.apnic_urls:
+                    if rir in url[url.rindex("/")+1:]:
+                        urls.append(url)
+                        break
+        else:
+            urls = self.apnic_urls
+        for url in urls:
             print(url[url.rindex("/")+1:])
             response = requests.get(url)
             response.raise_for_status()
@@ -119,10 +129,13 @@ class APNICParser:
         except Exception:
             return False
             
-    def parse_data(self, data: str) -> Dict[str, List[Dict[str, Any]]]:
+    def parse_data(self, data: str, type: str) -> Dict[str, List[Dict[str, Any]]]:
         """Parse the entire data file"""
-        print("Parsing APNIC data...")
-        
+        print("Parsing data...")
+
+        types = [type]
+        if len(types) == 0:
+            types = ['ipv4', 'ipv6']
         results = {
             'ipv4': [],
             'ipv6': [],
@@ -145,7 +158,7 @@ class APNICParser:
                 
             parsed = self.parse_line(line)
             if parsed:
-                if parsed['type'] in ['ipv4', 'ipv6']:
+                if parsed['type'] in types:
                     ip_range = self.calculate_ip_range(
                         parsed['start'], 
                         parsed['count'], 
@@ -158,7 +171,7 @@ class APNICParser:
                         skipped_lines += 1
                         continue
                         
-                results[parsed['type']].append(parsed)
+                    results[parsed['type']].append(parsed)
             else:
                 skipped_lines += 1
                 
@@ -211,14 +224,14 @@ class APNICParser:
         print(f"Data saved to {self.output_dir}/")
         print(f"Statistics: {stats}")
         
-    def run(self):
+    def run(self,rirs,type):
         """Run the complete parsing workflow"""
         try:
             # Download data
-            raw_data = self.download_data()
+            raw_data = self.download_data(rirs)
             
             # Parse data
-            parsed_data = self.parse_data(raw_data)
+            parsed_data = self.parse_data(raw_data,type)
             
             # Save data
             self.save_data(parsed_data)
@@ -231,4 +244,20 @@ class APNICParser:
 
 if __name__ == "__main__":
     parser = APNICParser()
-    parser.run() 
+    argparser = argparse.ArgumentParser(description='PhishSTOP v0.3')
+    argparser.add_argument('--dir', action='store', help='Output director (default ./data )')
+    argparser.add_argument('--type', action='store', default='', help='ipv4 or ipv6 - default both')
+    argparser.add_argument('rirs', nargs="*", action='store', default='', help='Which RIR data to use - default all')
+
+    args = argparser.parse_args()
+
+    if args.dir:
+        parser.output_dir = args.dir
+    type=''
+    if args.type:
+        if args.type[-1] == '4':
+            type = 'ipv4'
+        elif args.type[-1] == '6':
+            type = 'ipv6'
+
+    parser.run( args.rirs, type)
