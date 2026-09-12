@@ -76378,11 +76378,44 @@
       "country": "AU",
       "type": "ipv4",
       "start": "203.10.24.0",
-      "count": 2048,
+      "count": 1024,
+      "date": "19941118",
+      "status": "allocated",
+      "end": "203.10.27.255",
+      "cidr": "203.10.24.0/22"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
+      "start": "203.10.28.0",
+      "count": 256,
+      "date": "19941118",
+      "status": "allocated",
+      "end": "203.10.28.255",
+      "cidr": "203.10.28.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
+      "start": "203.10.29.0",
+      "count": 256,
+      "date": "19941118",
+      "status": "allocated",
+      "end": "203.10.29.255",
+      "cidr": "203.10.29.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "AU",
+      "type": "ipv4",
+      "start": "203.10.30.0",
+      "count": 512,
       "date": "19941118",
       "status": "allocated",
       "end": "203.10.31.255",
-      "cidr": "203.10.24.0/21"
+      "cidr": "203.10.30.0/23"
     },
     {
       "registry": "apnic",
@@ -474861,6 +474894,17 @@
       "registry": "apnic",
       "country": "PH",
       "type": "ipv4",
+      "start": "163.52.156.0",
+      "count": 256,
+      "date": "20260911",
+      "status": "assigned",
+      "end": "163.52.156.255",
+      "cidr": "163.52.156.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "ipv4",
       "start": "163.61.86.0",
       "count": 256,
       "date": "20250207",
@@ -557917,6 +557961,72 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "163.52.157.0",
+      "count": 256,
+      "date": "20260911",
+      "status": "assigned",
+      "end": "163.52.157.255",
+      "cidr": "163.52.157.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.52.158.0",
+      "count": 512,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.159.255",
+      "cidr": "163.52.158.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.52.160.0",
+      "count": 512,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.161.255",
+      "cidr": "163.52.160.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.52.162.0",
+      "count": 512,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.163.255",
+      "cidr": "163.52.162.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.52.164.0",
+      "count": 512,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.165.255",
+      "cidr": "163.52.164.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "163.52.166.0",
+      "count": 256,
+      "date": "20260911",
+      "status": "assigned",
+      "end": "163.52.166.255",
+      "cidr": "163.52.166.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "163.53.184.0",
       "count": 1024,
       "date": "20140711",
@@ -610025,6 +610135,28 @@
       "status": "allocated",
       "end": "163.52.153.255",
       "cidr": "163.52.152.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "163.52.167.0",
+      "count": 256,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.167.255",
+      "cidr": "163.52.167.0/24"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv4",
+      "start": "163.52.168.0",
+      "count": 512,
+      "date": "20260911",
+      "status": "allocated",
+      "end": "163.52.169.255",
+      "cidr": "163.52.168.0/23"
     },
     {
       "registry": "apnic",
