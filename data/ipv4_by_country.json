@@ -278425,7 +278425,7 @@
       "start": "45.127.232.0",
       "count": 1024,
       "date": "20150929",
-      "status": "assigned",
+      "status": "allocated",
       "end": "45.127.235.255",
       "cidr": "45.127.232.0/22"
     },
@@ -316064,17 +316064,6 @@
       "registry": "apnic",
       "country": "IN",
       "type": "ipv4",
-      "start": "103.162.140.0",
-      "count": 256,
-      "date": "20210205",
-      "status": "assigned",
-      "end": "103.162.140.255",
-      "cidr": "103.162.140.0/24"
-    },
-    {
-      "registry": "apnic",
-      "country": "IN",
-      "type": "ipv4",
       "start": "103.162.156.0",
       "count": 512,
       "date": "20210205",
@@ -332413,7 +332402,7 @@
       "start": "103.196.220.0",
       "count": 1024,
       "date": "20150929",
-      "status": "assigned",
+      "status": "allocated",
       "end": "103.196.223.255",
       "cidr": "103.196.220.0/22"
     },
@@ -478746,6 +478735,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv4",
+      "start": "43.240.116.0",
+      "count": 512,
+      "date": "20260929",
+      "status": "assigned",
+      "end": "43.240.117.255",
+      "cidr": "43.240.116.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv4",
       "start": "45.115.16.0",
       "count": 512,
       "date": "20250806",
@@ -500849,6 +500849,17 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv4",
+      "start": "43.240.118.0",
+      "count": 512,
+      "date": "20260929",
+      "status": "allocated",
+      "end": "43.240.119.255",
+      "cidr": "43.240.118.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
       "start": "43.240.224.0",
       "count": 256,
       "date": "20140818",
@@ -501482,6 +501493,17 @@
       "status": "allocated",
       "end": "45.121.43.255",
       "cidr": "45.121.40.0/22"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv4",
+      "start": "45.121.142.0",
+      "count": 512,
+      "date": "20260929",
+      "status": "allocated",
+      "end": "45.121.143.255",
+      "cidr": "45.121.142.0/23"
     },
     {
       "registry": "apnic",
