@@ -6,7 +6,7 @@ Test script for APNIC parser and CIDR generation
 import json
 import tempfile
 import os
-from parse_apnic_data import APNICParser
+from parse_apnic_data import RIRParser
 from generate_cidr_lists import generate_cidr_list, validate_cidr, ip_to_sort_key
 
 def test_sample_data():
@@ -29,7 +29,7 @@ apnic|AU|asn|1221|1|19930901|allocated"""
     # Create temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create parser instance
-        parser = APNICParser()
+        parser = RIRParser()
         parser.output_dir = temp_dir
         
         # Parse sample data
