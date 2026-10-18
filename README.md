@@ -1,8 +1,6 @@
 # Latest APNIC Country IP List
 
-This project automatically downloads and parses APNIC (Asia Pacific Network Information Centre) IP address allocation data.
-
-> All IP Lists are automatically updated at 2:00 am every day.
+This project downloads and parses IP address allocation data from all the RIRs using the APNIC (Asia Pacific Network Information Centre) mirror site.
 
 ## Features
 
@@ -11,7 +9,7 @@ This project automatically downloads and parses APNIC (Asia Pacific Network Info
 - Groups data by country/region
 - Calculates IP address ranges and CIDR notation
 - Generates statistics
-- Supports GitHub Actions for automatic updates
+- Supports GitHub Actions for automatic updates (not currently enabled in this fork)
 
 ## Data Source
 
@@ -53,6 +51,14 @@ Each record contains the following fields:
   "cidr": "8.0.1.0/24"
 }
 ```
+
+## Changes from upstream
+
+1. Instead of just APNIC I wanted all the RIRs. So I changed the url string to an array and changed download data to iterate through the array (also changed to delegated--extended-latest because ARIN only does extended)
+2. V6 subnet code was wrong. The APNIC docs linked to in the README are inconsistent with two different definitions in different parts of section 4.3 but looking at the values in the files makes it clear that the count field has to be mask.
+3. V4 subnet code is a) inefficient for large subnets (list can enumerate millions) and b) misses cases where the allocation is multiple CIDRs
+
+In addition I added command line options to parse_apnic_data.py to select which RIRs you want (default all), whether you want just IPv4 or IPv6 and to choose a different data directory.
 
 ## Automation
 
