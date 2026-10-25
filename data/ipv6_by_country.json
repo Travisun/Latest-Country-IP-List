@@ -163995,6 +163995,17 @@
       "registry": "apnic",
       "country": "PK",
       "type": "ipv6",
+      "start": "2402:7fe0::",
+      "count": 32,
+      "date": "20261024",
+      "status": "allocated",
+      "end": "2402:7fe0::1f",
+      "cidr": "2402:7fe0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "PK",
+      "type": "ipv6",
       "start": "2402:9640::",
       "count": 32,
       "date": "20180314",
