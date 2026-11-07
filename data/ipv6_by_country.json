@@ -93003,6 +93003,28 @@
       "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
+      "start": "2001:df7:d140::",
+      "count": 48,
+      "date": "20261106",
+      "status": "assigned",
+      "end": "2001:df7:d140::2f",
+      "cidr": "2001:df7:d140::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df7:d1c0::",
+      "count": 48,
+      "date": "20261106",
+      "status": "assigned",
+      "end": "2001:df7:d1c0::2f",
+      "cidr": "2001:df7:d1c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
       "start": "2001:df7:d700::",
       "count": 48,
       "date": "20190219",
@@ -175481,12 +175503,34 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
+      "start": "2001:df7:d0c0::",
+      "count": 48,
+      "date": "20261105",
+      "status": "assigned",
+      "end": "2001:df7:d0c0::2f",
+      "cidr": "2001:df7:d0c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
       "start": "2001:df7:d180::",
       "count": 48,
       "date": "20211018",
       "status": "assigned",
       "end": "2001:df7:d180::2f",
       "cidr": "2001:df7:d180::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
+      "start": "2001:df7:d240::",
+      "count": 48,
+      "date": "20261106",
+      "status": "assigned",
+      "end": "2001:df7:d240::2f",
+      "cidr": "2001:df7:d240::/123"
     },
     {
       "registry": "apnic",
