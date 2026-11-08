@@ -156892,6 +156892,17 @@
       "registry": "apnic",
       "country": "PH",
       "type": "ipv6",
+      "start": "2402:81e0::",
+      "count": 32,
+      "date": "20261107",
+      "status": "allocated",
+      "end": "2402:81e0::1f",
+      "cidr": "2402:81e0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "PH",
+      "type": "ipv6",
       "start": "2402:ba00::",
       "count": 32,
       "date": "20100607",

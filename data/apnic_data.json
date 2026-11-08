@@ -779013,6 +779013,17 @@
     },
     {
       "registry": "apnic",
+      "country": "PH",
+      "type": "ipv6",
+      "start": "2402:81e0::",
+      "count": 32,
+      "date": "20261107",
+      "status": "allocated",
+      "end": "2402:81e0::1f",
+      "cidr": "2402:81e0::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "NZ",
       "type": "ipv6",
       "start": "2402:8200::",
@@ -958410,7 +958421,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-07T08:37:36.356610",
+    "last_updated": "2026-11-08T08:50:35.057932",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
