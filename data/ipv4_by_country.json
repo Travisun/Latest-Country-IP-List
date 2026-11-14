@@ -413563,6 +413563,17 @@
       "registry": "apnic",
       "country": "SG",
       "type": "ipv4",
+      "start": "103.237.94.0",
+      "count": 512,
+      "date": "20230713",
+      "status": "allocated",
+      "end": "103.237.95.255",
+      "cidr": "103.237.94.0/23"
+    },
+    {
+      "registry": "apnic",
+      "country": "SG",
+      "type": "ipv4",
       "start": "103.237.132.0",
       "count": 512,
       "date": "20140716",
