@@ -113445,6 +113445,17 @@
       "registry": "apnic",
       "country": "VN",
       "type": "ipv6",
+      "start": "2001:df7:e6c0::",
+      "count": 48,
+      "date": "20261122",
+      "status": "assigned",
+      "end": "2001:df7:e6c0::2f",
+      "cidr": "2001:df7:e6c0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
       "start": "2001:df7:fd80::",
       "count": 48,
       "date": "20211104",

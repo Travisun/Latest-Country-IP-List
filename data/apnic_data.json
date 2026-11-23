@@ -733231,6 +733231,17 @@
     },
     {
       "registry": "apnic",
+      "country": "VN",
+      "type": "ipv6",
+      "start": "2001:df7:e6c0::",
+      "count": 48,
+      "date": "20261122",
+      "status": "assigned",
+      "end": "2001:df7:e6c0::2f",
+      "cidr": "2001:df7:e6c0::/123"
+    },
+    {
+      "registry": "apnic",
       "country": "ID",
       "type": "ipv6",
       "start": "2001:df7:e700::",
@@ -882951,6 +882962,15 @@
     },
     {
       "registry": "apnic",
+      "country": "VN",
+      "type": "asn",
+      "start": "133056",
+      "count": 1,
+      "date": "20261122",
+      "status": "allocated"
+    },
+    {
+      "registry": "apnic",
       "country": "AU",
       "type": "asn",
       "start": "133057",
@@ -960315,7 +960335,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-22T09:37:16.192054",
+    "last_updated": "2026-11-23T10:35:16.023913",
     "source": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   }
 }
