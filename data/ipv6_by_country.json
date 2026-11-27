@@ -16631,17 +16631,6 @@
       "registry": "apnic",
       "country": "CN",
       "type": "ipv6",
-      "start": "2001:df5:5f80::",
-      "count": 48,
-      "date": "20201117",
-      "status": "assigned",
-      "end": "2001:df5:5f80::2f",
-      "cidr": "2001:df5:5f80::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "CN",
-      "type": "ipv6",
       "start": "2001:df5:7800::",
       "count": 48,
       "date": "20140430",
@@ -93559,6 +93548,17 @@
       "status": "assigned",
       "end": "2001:df7:ec40::2f",
       "cidr": "2001:df7:ec40::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "ID",
+      "type": "ipv6",
+      "start": "2001:df7:ecc0::",
+      "count": 48,
+      "date": "20261126",
+      "status": "assigned",
+      "end": "2001:df7:ecc0::2f",
+      "cidr": "2001:df7:ecc0::/123"
     },
     {
       "registry": "apnic",
@@ -173930,17 +173930,6 @@
       "registry": "apnic",
       "country": "BD",
       "type": "ipv6",
-      "start": "2001:df6:4300::",
-      "count": 48,
-      "date": "20180824",
-      "status": "assigned",
-      "end": "2001:df6:4300::2f",
-      "cidr": "2001:df6:4300::/123"
-    },
-    {
-      "registry": "apnic",
-      "country": "BD",
-      "type": "ipv6",
       "start": "2001:df6:4340::",
       "count": 48,
       "date": "20251029",
@@ -176279,6 +176268,17 @@
       "status": "assigned",
       "end": "2001:df7:fe80::2f",
       "cidr": "2001:df7:fe80::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
+      "start": "2001:9480::",
+      "count": 32,
+      "date": "20261126",
+      "status": "assigned",
+      "end": "2001:9480::1f",
+      "cidr": "2001:9480::/123"
     },
     {
       "registry": "apnic",
@@ -180140,6 +180140,17 @@
       "status": "allocated",
       "end": "2402:84a0::1f",
       "cidr": "2402:84a0::/123"
+    },
+    {
+      "registry": "apnic",
+      "country": "BD",
+      "type": "ipv6",
+      "start": "2402:8520::",
+      "count": 32,
+      "date": "20261125",
+      "status": "allocated",
+      "end": "2402:8520::1f",
+      "cidr": "2402:8520::/123"
     },
     {
       "registry": "apnic",
